@@ -1,0 +1,44 @@
+<h1>Contact Us</h1>
+<p class="mb-2">Please select one of the following options to get in touch:</p>
+
+<h3 class="mt-5">Send an Email</h3>
+<p class="mb-3">
+  For potential concerns or general inquiries, you can send us an email using the button below. Our team will be in
+  touch within 48 hours.
+</p>
+<a class="btn btn-primary btn-lg" href="mailto:hersh.k17@gmail.com">Send Email</a>
+
+<h3 class="mt-5">Provide Feedback</h3>
+<p>If you have any suggestions, comments, or issues to report, please use the feedback form below.</p>
+<form>
+  <div class="form-group mb-2">
+    <label for="name">Your Name</label>
+    <input type="text" class="form-control" id="name" />
+  </div>
+  <div class="form-group mb-2">
+    <label for="email">Email Address</label>
+    <input type="email" class="form-control" id="email" />
+  </div>
+  <div class="form-group mb-2">
+    <label for="message">Message</label>
+    <textarea class="form-control" id="message" rows="5"></textarea>
+  </div>
+  <button type="button" class="btn btn-primary btn-lg mt-2 mb-5" data-bs-toggle="modal" data-bs-target="#feedbackModal">Send Feedback</button>
+</form>
+
+<div class="modal fade" id="feedbackModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="feedbackModalLabel">Message Sent</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thank you for your feedback!
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
